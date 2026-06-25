@@ -24,7 +24,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>commons-configuration2</artifactId>
-  <version>2.10.1</version>
+  <version>2.10.1.rx-1</version>
   <name>Apache Commons Configuration</name>
 
   <inceptionYear>2001</inceptionYear>
@@ -92,10 +92,11 @@
   </scm>
 
   <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/commons/content/proper/commons-configuration/</url>
-    </site>
+    <repository>
+      <id>RXLOGIX-thirdparty</id>
+      <name>RXLogix Thirdparty Repository</name>
+      <url>https://nexus-repo-eng.rxlogix.com/repository/thirdparty</url>
+    </repository>
   </distributionManagement>
 
   <dependencies>
